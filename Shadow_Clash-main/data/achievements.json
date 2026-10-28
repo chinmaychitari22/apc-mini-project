@@ -1,0 +1,38 @@
+[
+  {
+    "id": "first_blood",
+    "title": "First Blood",
+    "description": "Win your first battle in Shadow Clash.",
+    "reward_coins": 50
+  },
+  {
+    "id": "combo_master",
+    "title": "Shadow Flourish",
+    "description": "Achieve a combo chain of 8 or more consecutive hits.",
+    "reward_coins": 100
+  },
+  {
+    "id": "flawless_victory",
+    "title": "Untouchable",
+    "description": "Win a battle without taking any health damage.",
+    "reward_coins": 200
+  },
+  {
+    "id": "weapon_collector",
+    "title": "Armory Master",
+    "description": "Own at least 3 distinct weapons.",
+    "reward_coins": 150
+  },
+  {
+    "id": "survival_veteran",
+    "title": "Endless Shadow",
+    "description": "Survive 5 or more waves in Survival Mode.",
+    "reward_coins": 250
+  },
+  {
+    "id": "shadow_slayer",
+    "title": "Eclipse Victor",
+    "description": "Defeat the Shadow Master and complete Story Mode.",
+    "reward_coins": 500
+  }
+]

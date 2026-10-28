@@ -1,0 +1,1117 @@
+{
+  "version": "1.0.0",
+  "frame_width": 192,
+  "frame_height": 192,
+  "baseline_y": 168,
+  "characters": {
+    "player": {
+      "idle": {
+        "file": "characters/player/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/player/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/player/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/player/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/player/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/player/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/player/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/player/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/player/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/player/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/player/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/player/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/player/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/player/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/player/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/player/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/player/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/player/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/player/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/player/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    },
+    "rogue": {
+      "idle": {
+        "file": "characters/rogue/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/rogue/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/rogue/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/rogue/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/rogue/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/rogue/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/rogue/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/rogue/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/rogue/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/rogue/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/rogue/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/rogue/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/rogue/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/rogue/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/rogue/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/rogue/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/rogue/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/rogue/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/rogue/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/rogue/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    },
+    "swift_fang": {
+      "idle": {
+        "file": "characters/swift_fang/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/swift_fang/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/swift_fang/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/swift_fang/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/swift_fang/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/swift_fang/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/swift_fang/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/swift_fang/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/swift_fang/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/swift_fang/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/swift_fang/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/swift_fang/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/swift_fang/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/swift_fang/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/swift_fang/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/swift_fang/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/swift_fang/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/swift_fang/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/swift_fang/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/swift_fang/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    },
+    "iron_guard": {
+      "idle": {
+        "file": "characters/iron_guard/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/iron_guard/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/iron_guard/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/iron_guard/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/iron_guard/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/iron_guard/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/iron_guard/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/iron_guard/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/iron_guard/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/iron_guard/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/iron_guard/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/iron_guard/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/iron_guard/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/iron_guard/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/iron_guard/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/iron_guard/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/iron_guard/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/iron_guard/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/iron_guard/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/iron_guard/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    },
+    "night_reaper": {
+      "idle": {
+        "file": "characters/night_reaper/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/night_reaper/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/night_reaper/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/night_reaper/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/night_reaper/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/night_reaper/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/night_reaper/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/night_reaper/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/night_reaper/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/night_reaper/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/night_reaper/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/night_reaper/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/night_reaper/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/night_reaper/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/night_reaper/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/night_reaper/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/night_reaper/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/night_reaper/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/night_reaper/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/night_reaper/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    },
+    "shadow_master": {
+      "idle": {
+        "file": "characters/shadow_master/idle.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "walk": {
+        "file": "characters/shadow_master/walk.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "run": {
+        "file": "characters/shadow_master/run.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "jump": {
+        "file": "characters/shadow_master/jump.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "fall": {
+        "file": "characters/shadow_master/fall.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.12,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "land": {
+        "file": "characters/shadow_master/land.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch": {
+        "file": "characters/shadow_master/crouch.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_punch": {
+        "file": "characters/shadow_master/light_punch.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.07,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_punch": {
+        "file": "characters/shadow_master/heavy_punch.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "light_kick": {
+        "file": "characters/shadow_master/light_kick.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "heavy_kick": {
+        "file": "characters/shadow_master/heavy_kick.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "crouch_attack": {
+        "file": "characters/shadow_master/crouch_attack.png",
+        "frames": 5,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_punch": {
+        "file": "characters/shadow_master/jump_punch.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "jump_kick": {
+        "file": "characters/shadow_master/jump_kick.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "block": {
+        "file": "characters/shadow_master/block.png",
+        "frames": 3,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "hit": {
+        "file": "characters/shadow_master/hit.png",
+        "frames": 4,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.08,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "knockback": {
+        "file": "characters/shadow_master/knockback.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.1,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "special": {
+        "file": "characters/shadow_master/special.png",
+        "frames": 8,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.09,
+        "loop": false,
+        "baseline_y": 168
+      },
+      "victory": {
+        "file": "characters/shadow_master/victory.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.14,
+        "loop": true,
+        "baseline_y": 168
+      },
+      "defeat": {
+        "file": "characters/shadow_master/defeat.png",
+        "frames": 6,
+        "frame_width": 192,
+        "frame_height": 192,
+        "duration": 0.15,
+        "loop": false,
+        "baseline_y": 168
+      }
+    }
+  },
+  "arenas": [
+    "abandoned_dojo",
+    "crimson_forest",
+    "ruined_temple"
+  ],
+  "effects": [
+    "punch_impact.png",
+    "kick_impact.png",
+    "block_barrier.png",
+    "special_burst.png"
+  ],
+  "weapons": [
+    "training_gloves",
+    "steel_knuckles",
+    "shadow_blade",
+    "eclipse_staff"
+  ]
+}

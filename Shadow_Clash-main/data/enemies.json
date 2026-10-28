@@ -1,0 +1,104 @@
+{
+  "rogue": {
+    "name": "Rogue",
+    "title": "Wandering Outlaw",
+    "archetype": "rogue",
+    "max_health": 180,
+    "speed": 290,
+    "attack_power": 1.0,
+    "defense": 1.0,
+    "block_tendency": 0.25,
+    "aggression": 0.50,
+    "reaction_time": 0.28,
+    "preferred_distance": 90,
+    "retreat_chance": 0.20,
+    "special_capable": false
+  },
+  "swift_fang": {
+    "name": "Swift Fang",
+    "title": "Acrobatic Claw Ninja",
+    "archetype": "swift_fang",
+    "max_health": 210,
+    "speed": 360,
+    "attack_power": 1.15,
+    "defense": 0.90,
+    "block_tendency": 0.35,
+    "aggression": 0.75,
+    "reaction_time": 0.18,
+    "preferred_distance": 85,
+    "retreat_chance": 0.35,
+    "special_capable": true
+  },
+  "iron_guard": {
+    "name": "Iron Guard",
+    "title": "Fortress Defender",
+    "archetype": "iron_guard",
+    "max_health": 290,
+    "speed": 240,
+    "attack_power": 1.25,
+    "defense": 1.40,
+    "block_tendency": 0.70,
+    "aggression": 0.40,
+    "reaction_time": 0.22,
+    "preferred_distance": 75,
+    "retreat_chance": 0.10,
+    "special_capable": false
+  },
+  "night_reaper": {
+    "name": "Night Reaper",
+    "title": "Shadow Executioner",
+    "archetype": "night_reaper",
+    "max_health": 340,
+    "speed": 320,
+    "attack_power": 1.40,
+    "defense": 1.15,
+    "block_tendency": 0.50,
+    "aggression": 0.80,
+    "reaction_time": 0.15,
+    "preferred_distance": 100,
+    "retreat_chance": 0.25,
+    "special_capable": true
+  },
+  "shadow_master": {
+    "name": "Shadow Master",
+    "title": "Overlord of the Eclipse",
+    "archetype": "shadow_master",
+    "max_health": 480,
+    "speed": 340,
+    "attack_power": 1.55,
+    "defense": 1.30,
+    "block_tendency": 0.60,
+    "aggression": 0.85,
+    "reaction_time": 0.12,
+    "preferred_distance": 90,
+    "retreat_chance": 0.15,
+    "special_capable": true,
+    "is_boss": true,
+    "phases": [
+      {
+        "phase": 1,
+        "health_threshold": 1.0,
+        "speed_mult": 1.0,
+        "damage_mult": 1.0,
+        "aggression": 0.65,
+        "block_tendency": 0.55
+      },
+      {
+        "phase": 2,
+        "health_threshold": 0.50,
+        "speed_mult": 1.20,
+        "damage_mult": 1.25,
+        "aggression": 0.85,
+        "block_tendency": 0.40
+      },
+      {
+        "phase": 3,
+        "health_threshold": 0.25,
+        "speed_mult": 1.35,
+        "damage_mult": 1.45,
+        "aggression": 0.98,
+        "block_tendency": 0.30
+      }
+    ]
+  }
+}

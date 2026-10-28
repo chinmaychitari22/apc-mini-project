@@ -1,0 +1,54 @@
+{
+  "training_gloves": {
+    "id": "training_gloves",
+    "name": "Training Gloves",
+    "description": "Standard cloth wraps offering balanced hand protection and traditional striking discipline.",
+    "price": 0,
+    "damage_mult": 1.0,
+    "speed_mult": 1.0,
+    "reach_bonus": 0,
+    "guard_damage_bonus": 0,
+    "energy_gain_mult": 1.0,
+    "icon": "training_gloves.png",
+    "unlocked_by_default": true
+  },
+  "steel_knuckles": {
+    "id": "steel_knuckles",
+    "name": "Steel Knuckles",
+    "description": "Forged iron fist guards delivering blunt bone-shattering force with rapid follow-through.",
+    "price": 250,
+    "damage_mult": 1.20,
+    "speed_mult": 1.08,
+    "reach_bonus": 5,
+    "guard_damage_bonus": 1,
+    "energy_gain_mult": 1.15,
+    "icon": "steel_knuckles.png",
+    "unlocked_by_default": false
+  },
+  "shadow_blade": {
+    "id": "shadow_blade",
+    "name": "Shadow Blade",
+    "description": "An obsidian katana humming with dark energy. Extends combat reach and harvests enemy spiritual essence.",
+    "price": 600,
+    "damage_mult": 1.38,
+    "speed_mult": 1.0,
+    "reach_bonus": 22,
+    "guard_damage_bonus": 1,
+    "energy_gain_mult": 1.35,
+    "icon": "shadow_blade.png",
+    "unlocked_by_default": false
+  },
+  "eclipse_staff": {
+    "id": "eclipse_staff",
+    "name": "Eclipse Staff",
+    "description": "An ancient heavy iron staff crowned with solar rings. Devastating sweeping reach that crushes defensive guards.",
+    "price": 1200,
+    "damage_mult": 1.55,
+    "speed_mult": 0.95,
+    "reach_bonus": 38,
+    "guard_damage_bonus": 2,
+    "energy_gain_mult": 1.25,
+    "icon": "eclipse_staff.png",
+    "unlocked_by_default": false
+  }
+}

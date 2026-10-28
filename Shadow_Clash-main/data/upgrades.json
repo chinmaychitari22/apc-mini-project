@@ -1,0 +1,34 @@
+{
+  "strength": {
+    "name": "Strength",
+    "description": "Increases damage dealt by all martial arts strikes and techniques.",
+    "max_level": 5,
+    "base_cost": 150,
+    "cost_multiplier": 1.7,
+    "bonus_per_level": 0.08
+  },
+  "vitality": {
+    "name": "Vitality",
+    "description": "Increases maximum health capacity, allowing you to endure longer bouts.",
+    "max_level": 5,
+    "base_cost": 120,
+    "cost_multiplier": 1.6,
+    "bonus_per_level": 25
+  },
+  "defense": {
+    "name": "Defense",
+    "description": "Hardens physical conditioning to mitigate incoming strike and chip damage.",
+    "max_level": 5,
+    "base_cost": 140,
+    "cost_multiplier": 1.65,
+    "bonus_per_level": 0.06
+  },
+  "special_efficiency": {
+    "name": "Shadow Surge",
+    "description": "Channels spiritual ki to accelerate energy regeneration and reduce special attack strain.",
+    "max_level": 5,
+    "base_cost": 180,
+    "cost_multiplier": 1.8,
+    "bonus_per_level": 0.10
+  }
+}

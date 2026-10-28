@@ -1,0 +1,57 @@
+[
+  {
+    "stage_id": 1,
+    "title": "Stage 1: The Outskirts",
+    "description": "A rogue bandit attacks at the entrance to the abandoned martial dojo.",
+    "enemy_key": "rogue",
+    "arena": "abandoned_dojo",
+    "bgm": "bgm_combat",
+    "reward_coins": 120,
+    "reward_exp": 100,
+    "unlocked_by_default": true
+  },
+  {
+    "stage_id": 2,
+    "title": "Stage 2: Whispering Bamboo",
+    "description": "An acrobatic ninja strikes from the mist among blood-stained trees.",
+    "enemy_key": "swift_fang",
+    "arena": "crimson_forest",
+    "bgm": "bgm_combat",
+    "reward_coins": 200,
+    "reward_exp": 180,
+    "unlocked_by_default": false
+  },
+  {
+    "stage_id": 3,
+    "title": "Stage 3: The Fortress Gate",
+    "description": "The stoic Iron Guard defends the inner sanctum with an impenetrable stance.",
+    "enemy_key": "iron_guard",
+    "arena": "abandoned_dojo",
+    "bgm": "bgm_combat",
+    "reward_coins": 280,
+    "reward_exp": 260,
+    "unlocked_by_default": false
+  },
+  {
+    "stage_id": 4,
+    "title": "Stage 4: Moonlit Crypt",
+    "description": "The lethal Night Reaper descends to reap the souls of challengers.",
+    "enemy_key": "night_reaper",
+    "arena": "ruined_temple",
+    "bgm": "bgm_combat",
+    "reward_coins": 380,
+    "reward_exp": 380,
+    "unlocked_by_default": false
+  },
+  {
+    "stage_id": 5,
+    "title": "Stage 5: Shadow Apex",
+    "description": "Confront the legendary Shadow Master atop the crumbling celestial temple.",
+    "enemy_key": "shadow_master",
+    "arena": "ruined_temple",
+    "bgm": "bgm_boss",
+    "reward_coins": 650,
+    "reward_exp": 600,
+    "unlocked_by_default": false
+  }
+]

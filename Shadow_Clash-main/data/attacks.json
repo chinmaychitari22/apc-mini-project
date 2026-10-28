@@ -1,0 +1,178 @@
+{
+  "light_punch": {
+    "name": "Light Jab",
+    "damage": 12,
+    "startup": 0.08,
+    "active": 0.12,
+    "recovery": 0.15,
+    "reach": 75,
+    "hitbox": {
+      "offset_x": 45,
+      "offset_y": -95,
+      "width": 55,
+      "height": 35
+    },
+    "knockback": [180, -60],
+    "stun_duration": 0.28,
+    "block_chip": 0.15,
+    "guard_damage": 1,
+    "energy_cost": 0,
+    "energy_gain": 12,
+    "animation": "light_punch",
+    "sound": "light_punch"
+  },
+  "heavy_punch": {
+    "name": "Heavy Straight Strike",
+    "damage": 26,
+    "startup": 0.22,
+    "active": 0.14,
+    "recovery": 0.28,
+    "reach": 95,
+    "hitbox": {
+      "offset_x": 55,
+      "offset_y": -95,
+      "width": 75,
+      "height": 45
+    },
+    "knockback": [380, -120],
+    "stun_duration": 0.42,
+    "block_chip": 0.25,
+    "guard_damage": 2,
+    "energy_cost": 0,
+    "energy_gain": 18,
+    "animation": "heavy_punch",
+    "sound": "heavy_punch"
+  },
+  "light_kick": {
+    "name": "Snap Kick",
+    "damage": 16,
+    "startup": 0.12,
+    "active": 0.14,
+    "recovery": 0.18,
+    "reach": 85,
+    "hitbox": {
+      "offset_x": 50,
+      "offset_y": -65,
+      "width": 65,
+      "height": 40
+    },
+    "knockback": [240, -80],
+    "stun_duration": 0.32,
+    "block_chip": 0.18,
+    "guard_damage": 1,
+    "energy_cost": 0,
+    "energy_gain": 14,
+    "animation": "light_kick",
+    "sound": "kick"
+  },
+  "heavy_kick": {
+    "name": "Spinning Roundhouse Kick",
+    "damage": 32,
+    "startup": 0.26,
+    "active": 0.16,
+    "recovery": 0.32,
+    "reach": 105,
+    "hitbox": {
+      "offset_x": 60,
+      "offset_y": -80,
+      "width": 85,
+      "height": 55
+    },
+    "knockback": [460, -180],
+    "stun_duration": 0.50,
+    "block_chip": 0.30,
+    "guard_damage": 2,
+    "energy_cost": 0,
+    "energy_gain": 22,
+    "animation": "heavy_kick",
+    "sound": "heavy_kick"
+  },
+  "crouch_attack": {
+    "name": "Low Sweep",
+    "damage": 18,
+    "startup": 0.14,
+    "active": 0.16,
+    "recovery": 0.22,
+    "reach": 90,
+    "hitbox": {
+      "offset_x": 48,
+      "offset_y": -25,
+      "width": 75,
+      "height": 30
+    },
+    "knockback": [320, -140],
+    "stun_duration": 0.38,
+    "block_chip": 0.20,
+    "guard_damage": 2,
+    "energy_cost": 0,
+    "energy_gain": 15,
+    "animation": "crouch_attack",
+    "sound": "kick"
+  },
+  "jump_punch": {
+    "name": "Aerial Hammerfist",
+    "damage": 20,
+    "startup": 0.10,
+    "active": 0.18,
+    "recovery": 0.20,
+    "reach": 80,
+    "hitbox": {
+      "offset_x": 45,
+      "offset_y": -65,
+      "width": 65,
+      "height": 45
+    },
+    "knockback": [280, 200],
+    "stun_duration": 0.35,
+    "block_chip": 0.20,
+    "guard_damage": 1,
+    "energy_cost": 0,
+    "energy_gain": 16,
+    "animation": "jump_punch",
+    "sound": "light_punch"
+  },
+  "jump_kick": {
+    "name": "Flying Side Kick",
+    "damage": 24,
+    "startup": 0.12,
+    "active": 0.20,
+    "recovery": 0.22,
+    "reach": 95,
+    "hitbox": {
+      "offset_x": 55,
+      "offset_y": -55,
+      "width": 75,
+      "height": 45
+    },
+    "knockback": [360, 160],
+    "stun_duration": 0.40,
+    "block_chip": 0.25,
+    "guard_damage": 2,
+    "energy_cost": 0,
+    "energy_gain": 18,
+    "animation": "jump_kick",
+    "sound": "heavy_kick"
+  },
+  "special_attack": {
+    "name": "Shadow Burst",
+    "damage": 55,
+    "startup": 0.34,
+    "active": 0.25,
+    "recovery": 0.45,
+    "reach": 150,
+    "hitbox": {
+      "offset_x": 75,
+      "offset_y": -85,
+      "width": 140,
+      "height": 110
+    },
+    "knockback": [620, -220],
+    "stun_duration": 0.65,
+    "block_chip": 0.45,
+    "guard_damage": 3,
+    "energy_cost": 60,
+    "energy_gain": 0,
+    "animation": "special",
+    "sound": "special_attack"
+  }
+}
